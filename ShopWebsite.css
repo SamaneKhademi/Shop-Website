@@ -1,3 +1,26 @@
+
+
+/* Responsive typography */
+@media screen and (max-width: 992px) {
+    :root {
+        --biggest-font-size: 2rem;
+        --h1-font-size: 1.5rem;
+        --h2-font-size: 1.25rem;
+        --h3-font-size: 1rem;
+        --normal-font-size: .938rem;
+        --small-font-size: .813rem;
+        --smaller-font-size: .75rem;
+    }
+}
+
+/*=============== BASE ===============*/
+@font-face {
+    font-family: samim;
+    src: url("font/samim.ttf");
+}
+.samim{
+    font-family: samim;
+}
 *{
     margin: 0;
     padding: 0;
@@ -13,3 +36,43 @@
     grid-gap: 20px;
 }
 
+/*body span{
+    width: 100%;
+    height: 700px;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("image/background2.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 10px 10%;
+    color: #fff;
+}*/
+
+#background{
+    background:url("image/background11.jpg") no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: block;
+    padding: 10px 10%;
+    color: #fff;
+}
+
+#background h3{
+    margin-top: 20%;
+    font-size: 60px;
+    text-align: center;
+    margin-left: 45%;
+}
+#background h4{
+    margin-top: 5%;
+    font-size: 40px;
+    text-align: center;
+    margin-left: 45%;
+}
+#background a{
+    margin-top: 5%;
+    margin-right: 40%;
+}
+.col-sm-4{
+    text-align: center;
+    height: auto;
+}
