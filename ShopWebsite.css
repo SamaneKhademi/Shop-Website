@@ -168,11 +168,11 @@
 */
 
 @font-face {
-    font-family: samim;
-    src: url("font/samim.ttf");
+    font-family: iranyekan;
+    src: url("font/iranyekanwebregular(fanum).woff2");
 }
-.samim{
-    font-family: samim;
+.iranyekan{
+    font-family: iranyekan;
 }
 *{
     margin: 0;
@@ -188,21 +188,21 @@
     text-align: center;
     justify-content: space-between;
 }
-.logo a img{
+.logo i img{
     margin-left: 10px;
     cursor: pointer;
 }
 @media screen and (max-width: 420px) {
-    .logo a img {
+    .logo i img {
         width: 50px;
     }
 }
-.icons a img{
+.icons i img{
     margin-right: 10px;
     cursor: pointer;
 }
 @media screen and (max-width: 420px) {
-    .icons a img {
+    .icons i img {
         width: 20px;
     }
 }
