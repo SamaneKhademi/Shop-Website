@@ -29,6 +29,7 @@ body, html {
     min-height: 100%;
 }
 
+
 .w3-xlarge{
 }
 .w3-top{
@@ -56,3 +57,15 @@ header div span{
     font-size: larger;
     color: #052c65;
 }
+/*---catalog---*/
+.catalog{
+    float: right;
+}
+.w3-card img{
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*----new-text----*/
