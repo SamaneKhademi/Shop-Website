@@ -75,21 +75,15 @@
     </header>
 
 <!----catalog---->
-<div class="w3-container w3-center">
-  <br>
-  <br>
-    <h1>دسته بندی محصولات</h1>
-    <br>
-    <br>
-</div>
+<div class="w3-container" style="padding:50px" id="team1">
+        <h3 class="w3-center w3-xxxlarge w3-margin-bottom">دسته بندی محصولات</h3>
 
-<div class="w3-container w3-row-padding w3-margin-top">
+<div class="w3-container w3-row-padding" style="margin-top:50px">
 
   <div class="w3-display-container w3-text-black w3-third w3-margin-bottom">
     <div class="w3-center">
-        <img src="image/card-3.jpg" class="w3-image w3-opacity w3-hover-opacity-off w3-round-xxlarge" style="width:100%">
-        <p class="w3-display-middle w3-large"><h1>گردنبند</h1></p>
-        <div class="w3-display-middle w3-display-hover w3-large"><br><button class="w3-button w3-white w3-round-large">مشاهده همه</button></div>
+      <img src="image/card-3.jpg" class="w3-image w3-hover-opacity w3-round-xxlarge" style="width:100%">
+      <div class="w3-display-middle w3-display-hover w3-large"><h1>گردنبند</h1><br><button class="w3-button w3-white w3-round-large">مشاهده همه</button></div>
     </div>
     </div>
 
@@ -106,6 +100,9 @@
       <div class="w3-display-middle w3-display-hover w3-large"><h1>انگشتر</h1><br><button class="w3-button w3-white w3-round-large">مشاهده همه</button></div>
     </div>
     </div>
+    </div>
+
+<div class="w3-container w3-row-padding w3-margin-top">
 
     <div class="w3-display-container w3-text-black w3-third w3-margin-bottom">
     <div class="w3-center">
@@ -129,16 +126,18 @@
     </div>
 
 </div>
+</div>
 
 <!-- new -->
 
-    <div class="w3-container" style="padding:150px" id="team">
+    <div class="w3-container" style="padding:50px" id="team">
         <h3 class="w3-center w3-xxxlarge">جدیدترین محصولات</h3>
+
         <div class="w3-row-padding" style="margin-top:64px">
 
             <div class="w3-col l4 m6 w3-margin-bottom">
                 <div class="w3-card">
-                <img src="image/2card3.jpg" alt="Jane" style="width:100%">
+                <img src="image/2card3.jpg" alt="Jane" style="width:100%;height:100%">
                     <div class="w3-container">
                     <h3>پک گوشواره
                     </h3>
@@ -149,7 +148,7 @@
             </div>
             <div class="w3-col l4 m6 w3-margin-bottom">
                 <div class="w3-card">
-                <img src="image/2card2.jpg" alt="Mike" style="width:100%">
+                <img src="image/2card2.jpg" alt="Mike" style="width:100%;height:100%">
                     <div class="w3-container">
                     <h3>گردنبند سه لاین</h3>
                     <p class="w3-opacity">195.000 تومان</p>
@@ -159,7 +158,7 @@
             </div>
             <div class="w3-col l4 m6 w3-margin-bottom">
                 <div class="w3-card">
-                <img src="image/2card1.jpg" alt="Dan" style="width:100%">
+                <img src="image/2card1.jpg" alt="Dan" style="width:100%;height:100%">
                     <div class="w3-container">
                     <h3>پک انگشتر</h3>
                     <p class="w3-opacity">89.000 تومان</p>
@@ -171,26 +170,7 @@
         </div>
     </div>
 
-<!-- new2 -->
-    <div class="w3-container" style="padding:128px 16px" id="work">
-    <h3 class="w3-center">جدیدترین محصولات</h3>
 
-        <div class="w3-row-padding" style="margin-top:64px">
-            <div class="w3-col l3 m6">
-                <img src="image/2card1.jpg" style="width:100%" onclick="onClick(this)" class="w3-opacity w3-hover-opacity-off">
-            </div>
-            <div class="w3-col l3 m6">
-                <img src="image/2card2.jpg" style="width:100%" onclick="onClick(this)" class="w3-opacity w3-hover-opacity-off">
-            </div>
-            <div class="w3-col l3 m6">
-                <img src="image/2card3.jpg" style="width:100%" onclick="onClick(this)" class="w3-opacity w3-hover-opacity-off">
-            </div>
-            <div class="w3-col l3 m6">
-                <img src="image/2card4.jpg" style="width:100%" onclick="onClick(this)" class="w3-opacity w3-hover-opacity-off">
-            </div>
-        </div>
-
-    </div>
 
 <!-- new-text -->
 <div class="w3-container w3-center">
@@ -226,42 +206,29 @@
 
 
   <!-- Footer -->
-  <footer class=" w3-padding-48 w3-black w3-small w3-center" id="footer">
+  <footer class="w3-padding-64 w3-black w3-small w3-center" style="padding: 50px 100px 50px 100px" id="footer">
     <div class="w3-row-padding">
+        <div class="w3-container">
+        <h3 class="w3-right-align w3-xxxlarge">ارتباط با ما</h3><hr>
       <div class="w3-col s4">
-        <h4>ارتباط با ما</h4>
-        <p>سوالات، انتقادات و پیشنهادات</p>
-        <form action="/action_page.php" target="_blank">
-          <p><input class="w3-input w3-border" type="text" placeholder="نام" name="Name" required></p>
-          <p><input class="w3-input w3-border" type="text" placeholder="ایمیل" name="Email" required></p>
-          <p><input class="w3-input w3-border" type="text" placeholder="موضوع" name="Subject" required></p>
-          <p><input class="w3-input w3-border" type="text" placeholder="متن پیام" name="Message" required></p>
-          <button type="submit" class="w3-button w3-white w3-white">ارسال</button>
-        </form>
+        <img src="image/footer.jpg" style="width:100%">
       </div>
 
-      <div class="w3-col s4">
-        <p><a href="#">مقالات</a></p>
-        <p><a href="#">پشتیبانی</a></p>
-        <p><a href="#">قوانین و مقررات</a></p>
-        <p><a href="#">درباره ما</a></p>
-        <p><a href="#">تماس با ما</a></p>
-      </div>
-
-      <div class="w3-col s3 w3-justify">
-        <h4>فروشگاه دیانا</h4>
+      <div class="w3-col s8 w3-justify w3-large">
+        <h4>فروشگاه دیانا</h4><br>
         <p><i class="fa fa-fw fa-map-marker"></i>شیراز . پاساژ نرگس. طبقه دوم. واحد 296</p>
         <p><i class="fa fa-fw fa-phone"></i> 0044123123</p>
         <p><i class="fa fa-fw fa-envelope"></i> ex@mail.com</p>
         <br>
         <br>
-        <i class="fa fa-facebook-official w3-hover-opacity w3-large"></i>
-        <i class="fa fa-instagram w3-hover-opacity w3-large"></i>
-        <i class="fa fa-snapchat w3-hover-opacity w3-large"></i>
-        <i class="fa fa-pinterest-p w3-hover-opacity w3-large"></i>
-        <i class="fa fa-twitter w3-hover-opacity w3-large"></i>
-        <i class="fa fa-linkedin w3-hover-opacity w3-large"></i>
+          <div>
+            <i class="fa fa-facebook-official w3-hover-opacity w3-xlarge"></i>
+            <i class="fa fa-instagram w3-hover-opacity w3-xlarge"></i>
+            <i class="fa fa-twitter w3-hover-opacity w3-xlarge"></i>
+            <i class="fa fa-linkedin w3-hover-opacity w3-xlarge"></i>
+        </div>
       </div>
+    </div>
     </div>
   </footer>
 
