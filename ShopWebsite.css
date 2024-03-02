@@ -65,10 +65,7 @@ body, html {
 .w3-top{
 }
 
-.w3-bar{
-    padding: 16px;
-    display: flex;
-}
+
 .w3-button{
     padding: 16px;
 }
@@ -82,6 +79,14 @@ header div span{
     font-weight: bold;
 }
 
+#myNavbar{
+    padding: 16px;
+    display: flex;
+}
+
+#header1{
+    font-family: Georgia;
+}
 /*---catalog---*/
 .catalog{
     float: right;
@@ -109,4 +114,27 @@ header div span{
     float: left;
     width: 400px;
     height: 400px;
+}
+
+
+/*---Responive--- 420/768/1200  */
+/*Extra small devices (phones, 600px and down)*/
+@media only screen and (max-width: 420px) {
+}
+
+/*Small devices (portrait tablets and large phones, 600px and up)*/
+@media only screen and (min-width: 420px) {
+}
+
+/*Medium devices (landscape tablets, 768px and up)*/
+@media only screen and (min-width: 768px) {
+
+}
+
+/*Large devices (laptops/desktops, 992px and up)
+@media only screen and (min-width: 992px) {
+}*/
+
+@media only screen and (min-width: 601px) {
+
 }
