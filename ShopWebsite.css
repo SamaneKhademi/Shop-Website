@@ -10,16 +10,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/*
 html {
-  /*font-family: Verdana, sans-serif;*/
   font-size: 15px;
-  /*line-height: 1.5;*/
+  line-height: 1.5;
   font-weight: normal;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  /*font-family: "Segoe UI", Verdana, sans-serif;*/
   font-weight: 400;
   line-height: 1;
   margin: 20px 0;
@@ -39,32 +37,29 @@ hr {
   border-top: 1px solid #eee;
   margin: 20px 0;
 }
-
+*/
 body, html {
     height: 100%;
     line-height: 1.8;
+    font-family: "2  Karim";
 }
 #logo{
     font-weight: bolder;
-    text-shadow: 0px 0px 5px red;
+    text-shadow: 0 0 5px red;
     color: #000000;
     font-size: 20px;
     font-family: Georgia;
 }
 /* Full height image header */
-.bgimg-1 {
+#home {
     background-position: center;
     background-size: cover;
-    background-image: url("image/background01.jpg");
+    background-image: url("image/background.jpg");
     min-height: 100%;
 }
-
-
-.w3-xlarge{
+#myNavbar{
+    background-color: #89ccd3;
 }
-.w3-top{
-}
-
 
 .w3-button{
     padding: 16px;
@@ -75,18 +70,28 @@ body, html {
 .fa-bars{
     display: flex;
 }
-header div span{
-    font-weight: bold;
-}
 
 #myNavbar{
     padding: 16px;
     display: flex;
 }
 
-#header1{
-    font-family: Georgia;
+header div span{
+    font-family: serif;
+    margin-left: 200px;
+    font-weight: bold;
 }
+#header2{
+    font-family: "2  Karim";
+    font-weight: bold;
+    font-size: 45px;
+    margin-right: 10px;
+}
+header a{
+    margin-right: 100px;
+
+}
+
 /*---catalog---*/
 .catalog{
     float: right;
@@ -114,27 +119,4 @@ header div span{
     float: left;
     width: 400px;
     height: 400px;
-}
-
-
-/*---Responive--- 420/768/1200  */
-/*Extra small devices (phones, 600px and down)*/
-@media only screen and (max-width: 420px) {
-}
-
-/*Small devices (portrait tablets and large phones, 600px and up)*/
-@media only screen and (min-width: 420px) {
-}
-
-/*Medium devices (landscape tablets, 768px and up)*/
-@media only screen and (min-width: 768px) {
-
-}
-
-/*Large devices (laptops/desktops, 992px and up)
-@media only screen and (min-width: 992px) {
-}*/
-
-@media only screen and (min-width: 601px) {
-
 }

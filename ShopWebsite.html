@@ -12,13 +12,13 @@
     <!--------bootstrap link--------->
 </head>
 
-<body dir="rtl" class="iranyekan">
+<body dir="rtl">
 <!-- Navbar (sit on top) -->
-    <div class="w3-top">
-        <div class="col s12 w3-bar w3-light-blue" id="myNavbar">
+    <div class="w3-top nav1">
+        <div class="col s12 w3-bar" id="myNavbar">
             <i><a href="#" class="col s2 w3-bar-item" id="logo">DianaShop</a></i>
         <!-- Right-sided navbar links -->
-            <div class="col s8 w3-right w3-hide-small">
+            <div class="col s8 w3-right w3-hide-small w3-hide-medium">
                 <a href="#" class="w3-bar-item w3-button">خانــه</a>
                 <div class="w3-dropdown-hover">
                     <button class="w3-button">دسته بندی محصولات</button>
@@ -28,11 +28,11 @@
                       <a href="#" class="w3-bar-item w3-button">استیل</a>
                     </div>
                 </div>
-                <a href="#" class="w3-bar-item w3-button"><i class="fa"></i> جدیدترین ها</a>
-                <a href="#" class="w3-bar-item w3-button"><i class="fa"></i> پرفروش ترین ها</a>
-                <a href="#" class="w3-bar-item w3-button"><i class="fa"></i> ارتباط با ما</a>
+                <a href="#" class="w3-bar-item w3-button"> جدیدترین ها</a>
+                <a href="#" class="w3-bar-item w3-button"> پرفروش ترین ها</a>
+                <a href="#" class="w3-bar-item w3-button"> ارتباط با ما</a>
             </div>
-            <div class="col s2 w3-display-left w3-text-black w3-xlarge" style="padding:10px 40px">
+            <div class="col s2 w3-left w3-display-left w3-text-black w3-xlarge" style="padding:10px 40px">
                 <a href="#" class="fa fa-search w3-hover-opacity" style="padding-right:10px"></a>
                 <a href="#" class="fa fa-heart w3-hover-opacity" style="padding-right:10px"></a>
                 <a href="#" class="fa fa-user w3-hover-opacity" style="padding-right:10px"></a>
@@ -40,37 +40,37 @@
             </div>
 
         <!-- Hide right-floated links on small screens and replace them with a menu icon -->
-            <a href="javascript:void(0)" class="w3-bar-item w3-button w3-hide-large w3-hide-medium" onclick="w3_open()">
+            <a href="javascript:void(0)" class="w3-bar-item w3-button w3-hide-large" onclick="w3_open()">
                 <i class="fa fa-bars"></i>
             </a>
         </div>
     </div>
 
 <!-- Sidebar on small screens when clicking the menu icon -->
-    <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-right w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
-        <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-24">بستن ×</a>
-        <a href="#" onclick="w3_close()" class="w3-bar-item w3-right w3-button">خانــه</a>
+    <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-right w3-hide-large" style="display:none" id="mySidebar">
+        <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large">بستن ×</a>
+        <a href="#" onclick="w3_close()" class="w3-bar-item w3-right w3-button w3-large">خانــه</a>
         <div class="w3-dropdown-hover">
-                    <button class="w3-button">دسته بندی محصولات</button>
-                    <div class="w3-dropdown-content w3-bar-block w3-border">
-                      <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">نقره</a>
-                      <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">نقره با روکش طلا</a>
-                      <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">استیل</a>
-                    </div>
+            <button class="w3-button w3-large">دسته بندی محصولات</button>
+                <div class="w3-dropdown-content w3-bar w3-border">
+                    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-large">نقره</a>
+                    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-large">نقره با روکش طلا</a>
+                    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-large">استیل</a>
                 </div>
-        <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">جدیدترین ها</a>
-        <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">پرفروش ترین ها</a>
-        <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">درباره ما</a>
+        </div>
+        <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-large">جدیدترین ها</a>
+        <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-large">پرفروش ترین ها</a>
+        <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-large">درباره ما</a>
     </nav>
 
 <!-- Header with full-height image -->
 
     <header class="bgimg-1 w3-display-container" id="home">
-        <div class="w3-display-left w3-text-black" style="padding:48px">
-            <span class="w3-jumbo w3-hide-small">Diana Shop</span><br>
-            <span class="w3-xxlarge w3-hide-large w3-hide-medium" id="header1">Diana Shop</span><br>
-            <span class="w3-xlarge" id="header2">زیورآلات و بدلیجات دیانا</span>
-            <p><a href="#" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off w3-round-large">فروشگاه</a></p>
+        <div class="w3-display-left w3-text-black">
+            <span class="w3-jumbo w3-hide-small">DianaShop</span>
+            <span class="w3-hide-large w3-hide-medium">DianaShop</span>
+            <p id="header2">زیورآلات و بدلیجات دیانا</p>
+            <p><a href="#" class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off w3-round-large">فروشگاه</a></p>
         </div>
     </header>
 
